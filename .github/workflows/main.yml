@@ -32,4 +32,4 @@ name: Verify Human Identity
 ‎
 ‎      - name: Link Human to Agent
 ‎        run: |
-‎          node scripts/manualLinkHumanToAgent.js --challenge '{"name":"heyrival1","description":"heyrival1 AI Agent"}
+‎          node scripts/manualLinkHumanToAgent.js --challenge '{"name":"heyrival1","description":"heyrival1 AI Agent"}' 
