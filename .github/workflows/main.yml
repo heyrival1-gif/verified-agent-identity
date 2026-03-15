@@ -19,10 +19,11 @@
 
 ‎      - name: Install Verified Agent Identity
 ‎        run: clawhub install verified-agent-identity
-‎      - name: Install dependencies
-‎        run: |
-‎          cd scripts
-‎          npm install
+‎            - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+
 
 ‎      - name: Create Ethereum Identity
 ‎        run: node scripts/createNewEthereumIdentity.js
