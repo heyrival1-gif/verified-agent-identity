@@ -20,7 +20,7 @@
 ‎      - name: Install Verified Agent Identity
 ‎        run: clawhub install verified-agent-identity
 ‎            - name: Install dependencies
-        run:
+        run: 
           cd scripts
           npm install
 
