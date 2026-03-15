@@ -1,6 +1,5 @@
 name: Verify Human Identity
-‎
-‎on:
+‎‎on:
 ‎  workflow_dispatch:
 ‎
 ‎jobs:
